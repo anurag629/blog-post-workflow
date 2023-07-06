@@ -1,9 +1,6 @@
-from .generateImage import generate_image
-import generate_image from .generateImage
-
-from .generateTable import generate_table
-import generate_table from .generateTable
-
-from .updateReadme import update_readme
-import update_readme from .updateReadme
-
+from .generateImage import generateImage
+from .generateTable import generateTable
+from .saveImage import saveNewImages
+from .updateReadme import updateReadme
+from .deletePreviousImages import deletePreviousImages
+from .fetchBlogPost import fetchBlogPost

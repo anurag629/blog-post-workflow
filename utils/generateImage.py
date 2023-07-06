@@ -9,7 +9,7 @@ def generateImage(title, font_file, width=400, height=200):
     font_size = 30
 
     # Load the specified font file
-    font = ImageFont.truetype(font_file, font_size)
+    font = ImageFont.truetype(font_file, 18)
 
     # Create a blank image with the specified dimensions and background color
     image = Image.new("RGB", (width, height), background_color)
